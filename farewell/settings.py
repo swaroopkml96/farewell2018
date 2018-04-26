@@ -25,7 +25,7 @@ SECRET_KEY = 'j5%^w(7n$%hvprlatz2psk$zj2qq5!i6=57#&@hc^4c^-*=ry)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['farewell2018.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','farewell2018.herokuapp.com']
 
 
 # Application definition

@@ -34,7 +34,7 @@ Author URI: http://www.zerotheme.com/
 	/* display: inline-block;position: relative;min-height: 1px; */
 /* } */
 
-.column{display: inline-block;position: relative;min-height: 1px;float:left;}
+.{display: inline-block;position: relative;min-height: 1px;float:left;}
 
 .xs-1-2{width:50%;}
 .offset-xs-1-2{margin-left: 50%;}
