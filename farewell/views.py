@@ -18,7 +18,7 @@ def contact(request):
 def addquestion(request):
     q = query(name=request.POST['uname'], email=request.POST['uemail'], text=request.POST['text'])
     q.save()
-    return(HttpResponse('Added.</a>'))
+    return(HttpResponseRedirect('/'))
     
     
 def showquestions(request):
