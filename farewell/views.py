@@ -24,5 +24,5 @@ def addquestion(request):
 def showquestions(request):
     page = ""
     for q in query.objects.all():
-        page = page+q.name+'<br>'+q.email+'<br>'+q.text+'<br><br>'
+        page = page+q.name+'<br>'+q.email+'<br>'+q.text+'<br><br><hr>'
     return(HttpResponse(page))
